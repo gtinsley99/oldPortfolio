@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    /* border: 1px solid black; */
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+
+body{
+    margin: auto;
+    background-image: linear-gradient(to right, #eddcd9 , #a057577a);
+    max-width: 60%;
+    font-size: 17px;
+}
+
+.box{
+    border: 3px solid black;
+    box-shadow: 0.5px 1.5px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 44px;
+    color: #333333;
+}
+
+h2{
+    font-size: 30px;
+}
+
+header{
+    background-color: #f2ebe9;
+    margin-top: 0%;
+    border-bottom: 1px solid #333333;
+}
+
+.wide{
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+.header-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#about-me{
+    background-color: #e9b67bfa;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+
+#skills-box{
+    background-color: rgba(216, 117, 117, 0.658);
+    color: black;
+    
+}
+
+.skills-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#previous-exp-box{
+    background-color: rgba(218, 228, 238, 0.74);
+}
+
+
