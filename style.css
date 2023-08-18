@@ -111,21 +111,18 @@ header{
     grid-row: 2;
 }
 
+#diceGame{
+    grid-column: 2;
+    grid-row: 2;
+}
+
 @media only screen and (max-width: 900px) {
     .project-grid{
-        row-gap: 1%;
+        display: flex;
+        flex-direction: column;
     }
 
     .project{
         border: none;
-    }
-
-    #keycodeGenerator{
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    #drumKit{
-        grid-row: 3;
     }
 }
