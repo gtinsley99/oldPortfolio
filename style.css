@@ -84,6 +84,11 @@ header{
     flex-direction: column;
 }
 
+.projTitle{
+    display: flex;
+    justify-content: center;
+}
+
 .project-grid{
     display: grid;
     column-gap: 5%;
