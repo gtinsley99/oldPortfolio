@@ -34,10 +34,23 @@ h3{
     font-size: 18.5px;
 }
 
+li{
+    margin-top: 10px;
+}
+
+a{
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: blue;
+}
+
 header{
     background-color: #f2ebe9;
     margin-top: 0%;
-    border-bottom: 1px solid #333333;
+    border-bottom: 3px solid black;
 }
 
 .wide{
@@ -82,11 +95,13 @@ header{
     background-color: rgba(255, 127, 80, 0.555);
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .projTitle{
     display: flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 .project-grid{
@@ -98,7 +113,15 @@ header{
 
 .project{
     padding: 10px;
-    border: 2px dashed #333333;
+    border: 3px solid #333333;
+    transition: 0.15s ease-out;
+    background-color: rgba(204, 128, 13, 0.438);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.project:hover{
+    scale: 1.01;
 }
 
 #websiteClone{
@@ -121,6 +144,16 @@ header{
     grid-row: 2;
 }
 
+#cyberPet{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#calculator{
+    grid-column: 2;
+    grid-row: 3;
+}
+
 @media only screen and (max-width: 900px) {
     .project-grid{
         display: flex;
@@ -128,6 +161,10 @@ header{
     }
 
     .project{
-        border: none;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
