@@ -95,7 +95,7 @@ header{
     background-color: rgba(255, 127, 80, 0.555);
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .projTitle{
@@ -114,14 +114,7 @@ header{
 .project{
     padding: 10px;
     border: 3px solid #333333;
-    transition: 0.15s ease-out;
     background-color: rgba(204, 128, 13, 0.438);
-    transform: translateZ(0);
-    will-change: transform;
-}
-
-.project:hover{
-    scale: 1.01;
 }
 
 #websiteClone{
@@ -152,6 +145,11 @@ header{
 #calculator{
     grid-column: 2;
     grid-row: 3;
+}
+
+#todolist{
+    grid-column: 1;
+    grid-row: 4;
 }
 
 @media only screen and (max-width: 900px) {
