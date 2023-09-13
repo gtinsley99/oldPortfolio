@@ -8,8 +8,15 @@
 body{
     margin: auto;
     background-image: linear-gradient(to right, #eddcd9 , #b67e7e7a);
-    max-width: 60%;
     font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+header{
+    width:100vw;
 }
 
 .box{
@@ -18,6 +25,7 @@ body{
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 20px;
+    width: 50vw;
 }
 
 h1{
@@ -50,11 +58,6 @@ header{
     background-color: #f2ebe9;
     margin-top: 0%;
     border-bottom: 3px solid black;
-}
-
-.wide{
-    margin-left: -100%;
-    margin-right: -100%;
 }
 
 .header-section{
